@@ -7,9 +7,6 @@ func _physics_process(delta: float) -> void:
 	sprite_position(direction)
 	_velocity = calculate_move_velocity(_velocity, direction, speed)
 	_velocity = move_and_slide(_velocity)
-#	global_rotation = atan2(vec_to_player.y, vec_to_player.x)
-#	move_and_collide(vec_to_player * MOVE_SPEED * delta)
-	pass
 
 func sprite_position(direction: Vector2) -> void:
 	if not (direction.x == 0.0 and direction.y == 0.0):

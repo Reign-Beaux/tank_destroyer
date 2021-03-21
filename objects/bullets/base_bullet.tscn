@@ -3,7 +3,6 @@
 [ext_resource path="res://assets/sprite_objects/bulletBlue1.png" type="Texture" id=1]
 [ext_resource path="res://objects/bullets/base_bullet.gd" type="Script" id=2]
 
-
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 7.30104, 7.91279 )
 

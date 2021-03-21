@@ -58,6 +58,14 @@ shoot={
  ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="tank_test"
+2d_physics/layer_2="bullet_tank"
+2d_physics/layer_3="enemy"
+2d_physics/layer_4="bullet_enemy"
+2d_physics/layer_5="world"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
