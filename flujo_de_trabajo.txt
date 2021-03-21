@@ -1,0 +1,28 @@
+1.- Crear al personaje que vamos a manejar
+* Crear Su Sprite
+* Crear Sus Colisiones
+* Crear Script Base
+* Crear script personaje heredando del script base
+* configurarle layer personaje
+
+2.- Crear las balas
+* Crear Su Sprite
+* Crear Sus Colisiones
+* Crear script base
+* Crear Script bala hereando del script base
+* Configurarle layer bullet
+* Agregar el evento disparar al script del personaje
+* Programar el movimiento en función del ángulo en el que fue disparado
+* Orientar el sprite en función del ángulo en el que fue disparado
+
+3.- Crear una escena base con tilemap
+* Agregar background
+* Agregar limites con colisiones
+
+4.- Crear primer enemigo
+* Crear Su Sprite
+* Crear Sus Colisiones
+* Crear script personaje heredando del script base
+* configurar layer enemy
+* Hacer que el enemigo persiga al personaje
+* hacer que el enemigo le dispare al personaje

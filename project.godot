@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Tank Destroyer"
-run/main_scene="res://actors/tank_main/tank_main_01.tscn"
+run/main_scene="res://levels/test_levels/LevelTest.tscn"
 config/icon="res://icon.png"
 
 [input]
