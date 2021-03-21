@@ -4,13 +4,9 @@ var player_direction: = Vector2.ZERO
 
 func _physics_process(delta: float) -> void:
 	var direction = player_direction.normalized()
-	sprite_position(direction)
+	rotation = direction.angle()
 	_velocity = calculate_move_velocity(_velocity, direction, speed)
 	_velocity = move_and_slide(_velocity)
-
-func sprite_position(direction: Vector2) -> void:
-	if not (direction.x == 0.0 and direction.y == 0.0):
-		rotation = direction.angle()
 
 func calculate_move_velocity(
 		linear_velocity: Vector2,

@@ -26,3 +26,5 @@
 * configurar layer enemy
 * Hacer que el enemigo persiga al personaje
 * hacer que el enemigo le dispare al personaje
+* hacer que el enemigo dewtecte colisiones con el otros enemigos
+
